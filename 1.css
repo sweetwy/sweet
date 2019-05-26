@@ -75,8 +75,43 @@
     width: 2.8rem;
     height: 2.5rem;
     top:0.5rem;
-    left: 3.6rem;
+    left: 3.6rem
 }
+
+.page3 {
+    background:  url(image/6-1.webp) no-repeat ;
+    background-size: cover;
+}
+
+.page3 img {
+    position: absolute;
+}
+.page3 img:nth-of-type(1){
+    width:4.5rem;
+    height:2.8rem;
+    top:-0.5rem;
+    left:0rem;
+}
+
+.page3 img:nth-of-type(2){
+    width:2.3rem;
+    height:5.5rem;
+    left:1.5rem;
+    bottom:0rem;
+}
+.page3 img:nth-of-type(3){
+    width:0.6rem;
+    height:0.6rem;
+    top:2rem;
+    left:4rem;
+}
+.page3 img:nth-of-type(4){
+    width:2rem;
+    height:2.5rem;
+    right:0.5rem;
+    top:6.1rem;
+}
+
 /*.page2{
     background: url('image/4-3.jpg')
     no-repeat;
